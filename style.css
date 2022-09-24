@@ -1,0 +1,104 @@
+ .wrap{
+	background: rgb(118, 118, 120);
+	width: 900px;
+	margin: 10px auto;
+	;
+}
+
+.wrap.header{
+    background: rgb(114, 116, 114);
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+
+.wrap .header h1{
+	color: ghostwhite;
+
+}
+
+.wrap.menu{
+    background: yellow;
+}
+
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: rgb(224, 224, 221);
+	overflow: hidden;
+	
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: rgb(250, 248, 245);
+	background-image: url('images.jpg');
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+	float: left;	
+	width: 75%;
+	height: 100%;
+
+}
+
+
+.wrap .badan p{
+	
+		font-size: 18px;
+	 padding: 10%;
+	
+	 
+}
+
+.wrap .badan h2{
+	text-align: center;
+}
+
+.wrap .badan img{
+	padding: 60px;
+
+}
+
+
+
+
+.wrap .badan ul li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+.wrap .badan .content{
+	background: rgb(236, 237, 234);
+	float: left;
+	height: 100%;
+	width: 25%;	
+}
+.wrap .content ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+
+}
+ 
+.wrap .footer{
+	background: rgb(118, 118, 120);
+	width: 98%;
+	padding: 10px;
+}
